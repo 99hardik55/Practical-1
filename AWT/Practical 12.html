@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Practical 12</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            display: inline-flex;
+            flex-direction: row;
+            background-color: rgb(15, 235, 143);
+            padding: 5px;
+            border: 2px solid rgba(16, 173, 204, 0.452);
+        }
+        .flex-item
+        {
+            background-color: rgb(67, 209, 31);
+            color: rgb(20, 9, 1);
+            padding: 2px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .item
+        {
+            background-color: rgb(37, 31, 134);
+        }
+        .item2
+        {
+            background-color: rgb(3, 19, 1);
+        }
+        .item3
+        {
+            background-color: rgb(117, 6, 6);
+        }
+        .item4
+        {
+            background-color: rgb(19, 224, 224);
+        }
+        .containerTwo
+        {
+            display: inline-flex;
+            flex-direction: column;
+            background-color: rgb(163, 247, 7);
+            padding: 5px;
+            border: 2px solid rgb(134, 3, 241);
+
+        }
+        .containerThree
+        {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(35, 94, 182);
+            padding: 5px;
+            border: 2px solid rgb(204, 88, 185);
+        }
+        .containerFour
+        {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(228, 21, 21);
+            padding: 5px;
+            border: 2px solid rgb(134, 5, 5);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item item"><h3>item-1</h3></div>
+        <div class="flex-item item2"><h3>item-2</h3></div>
+        <div class="flex-item item3"><h3>item-3</h3></div>
+        <div class="flex-item item4"><h3>item-4</h3></div>
+    </div>
+    <div class="containerTwo">
+        <div class="flex-item item"><h3>item-1</h3></div>
+        <div class="flex-item item2"><h3>item-2</h3></div>
+        <div class="flex-item item3"><h3>item-3</h3></div>
+        <div class="flex-item item4"><h3>item-4</h3></div>
+    </div>
+    <div class="containerThree">
+        <div class="flex-item item"><h3>item-1</h3></div>
+        <div class="flex-item item2"><h3>item-2</h3></div>
+        <div class="flex-item item3"><h3>item-3</h3></div>
+        <div class="flex-item item4"><h3>item-4</h3></div>
+    </div>
+    <div class="containerFour">
+        <div class="flex-item item"><h3>item-1</h3></div>
+        <div class="flex-item item2"><h3>item-2</h3></div>
+        <div class="flex-item item3"><h3>item-3</h3></div>
+        <div class="flex-item item4"><h3>item-4</h3></div>
+    </div>
+</body>
+</html>
